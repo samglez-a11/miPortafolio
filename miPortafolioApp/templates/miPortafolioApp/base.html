@@ -1,0 +1,71 @@
+<html>
+    <head>
+        {% load static %}
+
+        <!-- Bootstrap -->
+        <link href="{% static 'miPortafolioApp/vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+
+        <!--Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rampart+One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Satisfy">
+
+        <!-- Styles -->
+        <link href="{% static 'miPortafolioApp/css/gestion.css'%}" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light" style="background:url('/static/miPortafolioApp/img/header.jpg') no-repeat;">
+                <a class="menu3">B.S.G.L.</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <div class="contenedor">
+                            <div class="centrado">
+                                <li><a class="menu1" href="{% url 'home'%}">Home</a></li>
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                            <div class="centrado">
+                                <li><a class="menu2" href="{% url 'trabajos'%}">Works</a></li>
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                            <div class="centrado">
+                                <li><a class="menu3" href="{% url 'hobby'%}">Hobbies</a></li>
+                            </div>
+                        </div>
+                        <div class="contenedor">
+                            <div class="centrado">
+                                <li><a class="menu4" href="{% url 'about'%}">About</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="container">
+                <div class="content">
+
+        {%block content%}
+
+
+      {%endblock%}
+                </div>
+            </div>
+      <footer style="width:100%; margin-left: 0px;">
+        <div>
+            <h4> Let's conect!</h4>
+            <a href="https://www.linkedin.com/in/samantha-gonzalez-b87a0a1a5/" target="_blank"><img class="imgfoot" src="/static/miPortafolioApp/img/link.png" /></a>
+            <a href="mailto:samglez852@gmail.com" target="_blank"><img class="imgfoot" src="/static/miPortafolioApp/img/mail.png" /></a>
+            
+        </div>
+    </footer>
+
+    </body>
+</html>

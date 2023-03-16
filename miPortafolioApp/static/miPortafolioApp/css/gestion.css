@@ -1,0 +1,437 @@
+body{
+    background-color: #e3e4e5;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+footer{
+    position: fixed;
+    bottom: 0; 
+    text-align: right;
+}
+
+footer h4{
+    font-size: 25px;
+}
+
+.imgfoot{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Rampart One';
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Dancing Script';
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Satisfy';
+    font-size: 25px;
+}
+
+h4{
+    font-family: 'Indie Flower';
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Shadows Into Light';
+    font-size: small;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    left: 50px;
+    width: 150px;
+    height: 50px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img_head{
+    width: 150px;
+    height: 50px;
+}
+
+.menu1{
+    font-family: 'Dancing Script', serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 131.25%;
+    letter-spacing: .05em;
+    color: #e3e4e5;
+}
+
+.menu2{
+    font-family: 'Satisfy', serif;
+    text-transform: none;
+    font-size: 131.25%;
+    letter-spacing: .1em;
+    color: #e3e4e5;
+}
+
+.menu3{
+    font-family: 'Indie Flower';
+    font-weight: 700;
+    text-transform: none;
+    font-size: 118.75%;
+    letter-spacing: .05em;
+    line-height: 1.3em;
+    color: #e3e4e5;
+}
+
+.menu4{
+    font-family: 'Shadows Into Light';
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-weight: 700;
+    font-size: 100%;
+    color: #e3e4e5;
+}
+
+.presentacion{
+    width:fit-content;
+    height: 300px;
+    position: absolute;
+    top: 130px;
+    left: 360px;
+}
+
+.info_pres{
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    text-align: center;
+}
+
+.info_pres p{
+    font-size: 20px;
+}
+
+.reading{
+    width: 508px;
+    height: 408px;
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    left: 50px;
+}
+
+.photograpy{
+    width: 340px;
+    height: 207px;
+    position: absolute;
+    display: inline-block;
+    top: 1250px;
+    left: 50px;
+    text-align: right;
+}
+
+.writting{
+    width: 450px;
+    height: 484px;
+    position: absolute;
+    display: inline-block;
+    top: 700px;
+    right: 50px;
+}
+
+.painting{
+    width: 429px;
+    height: 479px;
+    position: absolute;
+    display: inline-block;
+    top: 1800px;
+    right: 160px;
+    text-align: right;
+}
+
+.texto1{
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 170px;
+    text-shadow: 4px 4px 4px #ffffff;
+}
+
+.texto2{
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 40px;
+    width: 350px;
+    height: 408px;
+}
+
+.texto3{
+    position: absolute;
+    text-align: center;
+    top: 340px;
+    left: 40px;
+    width: 180px;
+}
+
+.texto4{
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    left: 130px;
+    text-shadow: 4px 4px 4px #ffffff;
+}
+
+.texto5{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 30px;
+    width: 350px;
+    height: 408px;
+}
+
+.texto6{
+    position: absolute;
+    text-align: center;
+    top: 40px;
+    left: 140px;
+    text-shadow: 4px 4px 4px #ffffff;
+}
+
+.texto7{
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 30px;
+    width: 350px;
+    height: 408px;
+}
+
+.texto8{
+    position: absolute;
+    text-align: center;
+    top: 70px;
+    left: 130px;
+    text-shadow: 4px 4px 4px #ffffff;
+    width: 260px;
+}
+
+.texto9{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 130px;
+    width: 350px;
+    height: 408px;
+}
+
+.texto10{
+    position: absolute;
+    text-align: center;
+    top: 270px;
+    left: 40px;
+    width: 200px;
+}
+
+.aboutme{
+    width: 626px;
+    height: 626px;
+    position: relative;
+    display: inline-block;
+    top: 60px;
+    left: 50px;
+}
+
+.texto11 {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 130px;
+    width: 350px;
+    height: 100px;
+}
+
+.texto11 p{
+    font-size: medium;
+}
+
+.bring{
+    width: 340px;
+    height: 207px;
+    position: relative;
+    display: inline-block;
+    top: 700px;
+    left: 60px;
+    text-align: left;
+}
+
+.txt1{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    width: 340px;
+    height: 50px;
+}
+
+.txt2{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    width: 340px;
+    height: 207px;
+}
+
+.mep{
+    position: absolute;
+    top: 250px;
+    right: 90px;
+    width: 400px;
+    height: 500px;
+}
+
+.mep2{
+    position: absolute;
+    top: 900px;
+    left: 130px;
+    width: 300px;
+    height: 480px;
+}
+
+.imgs_read{
+    width: 508px;
+    height: 408px;
+    position: absolute;
+    display: inline-block;
+    top: 150px;
+    right: 80px;
+}
+
+.imgs_writte{
+    width: 450px;
+    height: 484px;
+    position: absolute;
+    display: inline-block;
+    top: 700px;
+    left: 80px;
+}
+
+.imgs_photo{
+    width: 450px;
+    height: 484px;
+    position: absolute;
+    display: inline-block;
+    top: 1250px;
+    right: 50px;
+}
+
+.imgs_paint{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    display: inline-block;
+    top: 1800px;
+    left: 60px;
+}
+
+.img1{
+    width: 200px;
+    height: 240px;
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+}
+
+.img3{
+    width: 240px;
+    height: 200px;
+}
+
+.insta{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 260px;
+    left: 40px;
+}
+
+.school{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.school h3{
+    font-size: 36px;
+}
+
+.social{
+    position: absolute;
+    top: 1800px;
+    left: 40px;
+}
+
+.social h3{
+    font-size: 36px;
+}
+
+.img_work{
+    position: absolute;
+    top: 440px;
+    right: 160px;
+}
+
+.img4{
+    width: 380px; 
+    height: 380px;
+}
+
+.web{
+    position: absolute;
+    top: 2700px;
+    left: 40px;
+    width: 1140;
+}
+
+.web h3{
+    font-size: 36px;
+}
+
+.web p{
+    font-size: medium;
+}
