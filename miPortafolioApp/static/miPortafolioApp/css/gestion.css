@@ -88,33 +88,6 @@ ul {
 }
 
 .menu1{
-    font-family: 'Dancing Script', serif;
-    font-weight: 700;
-    text-transform: none;
-    font-size: 131.25%;
-    letter-spacing: .05em;
-    color: #e3e4e5;
-}
-
-.menu2{
-    font-family: 'Satisfy', serif;
-    text-transform: none;
-    font-size: 131.25%;
-    letter-spacing: .1em;
-    color: #e3e4e5;
-}
-
-.menu3{
-    font-family: 'Indie Flower';
-    font-weight: 700;
-    text-transform: none;
-    font-size: 118.75%;
-    letter-spacing: .05em;
-    line-height: 1.3em;
-    color: #e3e4e5;
-}
-
-.menu4{
     font-family: 'Shadows Into Light';
     text-transform: uppercase;
     letter-spacing: .15em;
