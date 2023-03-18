@@ -190,7 +190,7 @@ ul {
     text-align: center;
     top: 100px;
     left: 30px;
-    width: 100%;
+    width:fit-content;
     height: 75%;
 }
 
@@ -290,7 +290,7 @@ ul {
     top: 250px;
     right: 90px;
     width: 25%;
-    height: 50%;
+    height: 80%;
 }
 
 .mep2{
@@ -298,7 +298,7 @@ ul {
     top: 900px;
     left: 130px;
     width: 25%;
-    height: 50%;
+    height: 80%;
 }
 
 .imgs_read{
