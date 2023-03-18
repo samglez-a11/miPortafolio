@@ -23,30 +23,39 @@
             <nav class="navbar navbar-expand-lg navbar-light" style="width:100%; background:url('/static/miPortafolioApp/img/header.jpg');">
                 <a class="menu1">B.S.G.L.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <div class="contenedor">
-                            <div class="centrado">
-                                <li><a class="menu1" href="{% url 'home'%}">Home</a></li>
+                        <li class="nav-item active">
+                            <div class="contenedor">
+                                <div class="centrado">
+                                    <li><a class="menu1" href="{% url 'home'%}">Home</a></li>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contenedor">
-                            <div class="centrado">
-                                <li><a class="menu1" href="{% url 'trabajos'%}">Works</a></li>
+                        </li>
+                        <li class="nav-item">
+                            <div class="contenedor">
+                                <div class="centrado">
+                                    <li><a class="menu1" href="{% url 'trabajos'%}">Works</a></li>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contenedor">
-                            <div class="centrado">
-                                <li><a class="menu1" href="{% url 'hobby'%}">Hobbies</a></li>
+                        </li>
+                        <li class="nav-item">
+                            <div class="contenedor">
+                                <div class="centrado">
+                                    <li><a class="menu1" href="{% url 'hobby'%}">Hobbies</a></li>
+                                </div>
                             </div>
-                        </div>
-                        <div class="contenedor">
-                            <div class="centrado">
-                                <li><a class="menu1" href="{% url 'about'%}">About</a></li>
+                        </li>
+                        <li class="nav-item">
+                            <div class="contenedor">
+                                <div class="centrado">
+                                    <li><a class="menu1" href="{% url 'about'%}">About</a></li>
+                                </div>
                             </div>
-                        </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </nav>

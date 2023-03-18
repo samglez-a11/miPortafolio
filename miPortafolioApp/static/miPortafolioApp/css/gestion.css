@@ -84,7 +84,7 @@ ul {
 
 .img_head{
     width: 100%;
-    height: 10%;
+    height: 15%;
 }
 
 .menu1{
@@ -105,7 +105,7 @@ ul {
 }
 
 .info_pres{
-    width: 50%;
+    width: 75%;
     height: 25%;
     position: absolute;
     top: 530px;
@@ -119,7 +119,7 @@ ul {
 
 .reading{
     width: 35%;
-    height: 45%;
+    height: 50%;
     position: absolute;
     display: inline-block;
     top: 150px;
@@ -168,8 +168,8 @@ ul {
     text-align: center;
     top: 80px;
     left: 40px;
-    width: 35%;
-    height: 45%;
+    width: 100%;
+    height: 40%;
 }
 
 .texto3{
@@ -177,7 +177,7 @@ ul {
     text-align: center;
     top: 340px;
     left: 40px;
-    width: 25%;
+    width: 50%;
 }
 
 .texto4{
@@ -193,7 +193,7 @@ ul {
     text-align: center;
     top: 100px;
     left: 30px;
-    width: 35%;
+    width: 100%;
     height: 25%;
 }
 
@@ -210,7 +210,7 @@ ul {
     text-align: center;
     top: 90px;
     left: 30px;
-    width: 40%;
+    width: 100%;
     height: 45%;
 }
 
@@ -220,7 +220,7 @@ ul {
     top: 70px;
     left: 130px;
     text-shadow: 4px 4px 4px #ffffff;
-    width: 45%;
+    width: 100%;
 }
 
 .texto9{
@@ -228,7 +228,7 @@ ul {
     text-align: center;
     top: 130px;
     left: 130px;
-    width: 45%;
+    width: 100%;
     height: 35%;
 }
 
@@ -237,7 +237,7 @@ ul {
     text-align: center;
     top: 270px;
     left: 40px;
-    width: 40%;
+    width: 100%;
 }
 
 .aboutme{
@@ -254,7 +254,7 @@ ul {
     text-align: center;
     top: 150px;
     left: 130px;
-    width: 30%;
+    width: 100%;
     height: 45%;
 }
 
@@ -292,16 +292,16 @@ ul {
     position: absolute;
     top: 250px;
     right: 90px;
-    width: 400px;
-    height: 500px;
+    width: 25%;
+    height: 50%;
 }
 
 .mep2{
     position: absolute;
     top: 900px;
     left: 130px;
-    width: 300px;
-    height: 480px;
+    width: 25%;
+    height: 50%;
 }
 
 .imgs_read{
