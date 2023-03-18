@@ -166,8 +166,6 @@ ul {
 .texto2{
     position: absolute;
     text-align: center;
-    width:auto;
-    height:fit-content;
 }
 
 .texto3{
@@ -175,7 +173,6 @@ ul {
     text-align: center;
     top: 340px;
     left: 40px;
-    width: 50%;
 }
 
 .texto4{
