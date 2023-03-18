@@ -65,8 +65,8 @@ ul {
     display: inline-block;
     text-align: center;
     left: 50px;
-    width: 150px;
-    height: 50px;
+    width: 100%;
+    height: 10%;
 }
 
 .texto-encima{
@@ -83,8 +83,8 @@ ul {
 }
 
 .img_head{
-    width: 150px;
-    height: 50px;
+    width: 100%;
+    height: 10%;
 }
 
 .menu1{
@@ -98,15 +98,15 @@ ul {
 
 .presentacion{
     width:fit-content;
-    height: 300px;
-    position: absolute;
+    height: 25%;
+    position:absolute;
     top: 130px;
     left: 360px;
 }
 
 .info_pres{
-    width: 1200px;
-    height: 300px;
+    width: 50%;
+    height: 25%;
     position: absolute;
     top: 530px;
     left: 50px;
@@ -118,8 +118,8 @@ ul {
 }
 
 .reading{
-    width: 508px;
-    height: 408px;
+    width: 35%;
+    height: 45%;
     position: absolute;
     display: inline-block;
     top: 150px;
@@ -127,8 +127,8 @@ ul {
 }
 
 .photograpy{
-    width: 340px;
-    height: 207px;
+    width: 35%;
+    height: 25%;
     position: absolute;
     display: inline-block;
     top: 1250px;
@@ -137,8 +137,8 @@ ul {
 }
 
 .writting{
-    width: 450px;
-    height: 484px;
+    width: 40%;
+    height: 45%;
     position: absolute;
     display: inline-block;
     top: 700px;
@@ -146,8 +146,8 @@ ul {
 }
 
 .painting{
-    width: 429px;
-    height: 479px;
+    width: 45%;
+    height: 35%;
     position: absolute;
     display: inline-block;
     top: 1800px;
@@ -168,8 +168,8 @@ ul {
     text-align: center;
     top: 80px;
     left: 40px;
-    width: 350px;
-    height: 408px;
+    width: 35%;
+    height: 45%;
 }
 
 .texto3{
@@ -177,7 +177,7 @@ ul {
     text-align: center;
     top: 340px;
     left: 40px;
-    width: 180px;
+    width: 25%;
 }
 
 .texto4{
@@ -193,8 +193,8 @@ ul {
     text-align: center;
     top: 100px;
     left: 30px;
-    width: 350px;
-    height: 408px;
+    width: 35%;
+    height: 25%;
 }
 
 .texto6{
@@ -210,8 +210,8 @@ ul {
     text-align: center;
     top: 90px;
     left: 30px;
-    width: 350px;
-    height: 408px;
+    width: 40%;
+    height: 45%;
 }
 
 .texto8{
@@ -220,7 +220,7 @@ ul {
     top: 70px;
     left: 130px;
     text-shadow: 4px 4px 4px #ffffff;
-    width: 260px;
+    width: 45%;
 }
 
 .texto9{
@@ -228,8 +228,8 @@ ul {
     text-align: center;
     top: 130px;
     left: 130px;
-    width: 350px;
-    height: 408px;
+    width: 45%;
+    height: 35%;
 }
 
 .texto10{
@@ -237,12 +237,12 @@ ul {
     text-align: center;
     top: 270px;
     left: 40px;
-    width: 200px;
+    width: 40%;
 }
 
 .aboutme{
-    width: 626px;
-    height: 626px;
+    width: 50%;
+    height: 45%;
     position: relative;
     display: inline-block;
     top: 60px;
@@ -254,8 +254,8 @@ ul {
     text-align: center;
     top: 150px;
     left: 130px;
-    width: 350px;
-    height: 100px;
+    width: 30%;
+    height: 45%;
 }
 
 .texto11 p{
@@ -263,8 +263,8 @@ ul {
 }
 
 .bring{
-    width: 340px;
-    height: 207px;
+    width: 35%;
+    height: 25%;
     position: relative;
     display: inline-block;
     top: 700px;
@@ -407,4 +407,19 @@ ul {
 
 .web p{
     font-size: medium;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1400px) {
+  .box {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    padding: 10px;
+  }
 }
