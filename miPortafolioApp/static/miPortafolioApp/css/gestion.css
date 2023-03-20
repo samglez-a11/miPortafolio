@@ -166,7 +166,7 @@ ul {
 .texto2{
     position: absolute;
     text-align: center;
-    width: 440px;
+    width: 400px;
     height: 300px;
 }
 
@@ -182,7 +182,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 50px;
-    left: 130px;
+    left: 60px;
     text-shadow: 4px 4px 4px #ffffff;
 }
 
@@ -190,7 +190,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 100px;
-    left: 30px;
+    left: 90px;
     width: 180px;
 }
 
@@ -207,7 +207,7 @@ ul {
     text-align: center;
     top: 90px;
     left: 30px;
-    width: 440px;
+    width: 400px;
     height: 280px;
 }
 
@@ -217,7 +217,7 @@ ul {
     top: 70px;
     left: 130px;
     text-shadow: 4px 4px 4px #ffffff;
-    width: 140px;
+    width: 200px;
 }
 
 .texto9{
@@ -225,7 +225,7 @@ ul {
     text-align: center;
     top: 130px;
     left: 130px;
-    width: 430px;
+    width: 410px;
     height: 280px;
 }
 
@@ -234,7 +234,7 @@ ul {
     text-align: center;
     top: 270px;
     left: 40px;
-    width: 440px;
+    width: 390px;
     height: 280px;
 }
 
@@ -252,7 +252,7 @@ ul {
     text-align: center;
     top: 150px;
     left: 130px;
-    width: 450px;
+    width: 420px;
     height: 380px;
 }
 
@@ -365,6 +365,7 @@ ul {
     position: absolute;
     top: 120px;
     left: 40px;
+    width: 75%;
 }
 
 .school h3{
@@ -375,6 +376,7 @@ ul {
     position: absolute;
     top: 1800px;
     left: 40px;
+    width: 75%;
 }
 
 .social h3{
@@ -396,7 +398,7 @@ ul {
     position: absolute;
     top: 2700px;
     left: 40px;
-    width: 1140;
+    width: 75%;
 }
 
 .web h3{
