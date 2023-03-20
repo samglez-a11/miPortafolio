@@ -166,7 +166,7 @@ ul {
 .texto2{
     position: absolute;
     text-align: center;
-    width: 400px;
+    width: 100%;
     height: 300px;
 }
 
@@ -191,7 +191,7 @@ ul {
     text-align: center;
     top: 100px;
     left: 90px;
-    width: 180px;
+    width: 100%;
 }
 
 .texto6{
@@ -252,8 +252,8 @@ ul {
     text-align: center;
     top: 150px;
     left: 130px;
-    width: 420px;
-    height: 380px;
+    width: 100%;
+    height: 100%;
 }
 
 .texto11 p{
