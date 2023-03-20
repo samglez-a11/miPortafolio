@@ -168,7 +168,7 @@ ul {
     text-align: center;
     width: 350px;
     height: 300px;
-    top: 100px;
+    top: 150px;
 }
 
 .texto3{
@@ -183,7 +183,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 50px;
-    left: 160px;
+    left: 300px;
     text-shadow: 4px 4px 4px #ffffff;
 }
 
@@ -191,7 +191,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 100px;
-    left: 190px;
+    left: 250px;
     width: 180px;
 }
 
@@ -207,7 +207,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 90px;
-    left: 30px;
+    left: 60px;
     width: 320px;
     height: 280px;
 }
@@ -235,7 +235,7 @@ ul {
     text-align: center;
     top: 270px;
     left: 40px;
-    width: 250px;
+    width: 210px;
     height: 280px;
 }
 
