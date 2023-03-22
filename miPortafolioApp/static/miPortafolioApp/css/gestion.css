@@ -183,16 +183,16 @@ ul {
 .texto4{
     position: absolute;
     text-align: center;
-    top: 30%;
-    left: 40%;
+    top: 40px;
+    left: 60px;
     text-shadow: 4px 4px 4px #ffffff;
 }
 
 .texto5{
     position: absolute;
     text-align: center;
-    top: 50%;
-    left: 20%;
+    top: 60px;
+    left: 40px;
     width: 180px;
     height: 180px;
 }
