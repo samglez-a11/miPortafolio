@@ -193,7 +193,7 @@ ul {
     text-align: center;
     top: 100px;
     left: 250px;
-    width: 180px;
+    width: 75%;
 }
 
 .texto6{
@@ -256,6 +256,10 @@ ul {
     left: 130px;
     width: 350px;
     height: 380px;
+}
+
+.texto11 p{
+    font-size: 0.87em;
 }
 
 .bring{
