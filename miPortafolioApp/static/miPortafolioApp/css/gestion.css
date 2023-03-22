@@ -100,8 +100,8 @@ ul {
 }
 
 .img_head{
-    width: 100%;
-    height: 80%;
+    width: fit-content;
+    height: fit-content;
 }
 
 .info_pres{
