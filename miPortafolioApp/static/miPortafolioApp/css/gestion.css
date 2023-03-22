@@ -218,13 +218,16 @@ ul {
     position: absolute;
     text-align: center;
     top: 70px;
-    left: 50px;
+    left: 150px;
     text-shadow: 4px 4px 4px #ffffff;
     width: 270px;
 }
 
 .texto9{
+    position: absolute;
     text-align: center;
+    top: 130px;
+    left: 100px;
     width: 380px;
     height: 100px;
 }
