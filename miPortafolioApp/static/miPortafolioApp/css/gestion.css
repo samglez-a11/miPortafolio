@@ -218,7 +218,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 70px;
-    left: 190px;
+    right: 50px;
     text-shadow: 4px 4px 4px #ffffff;
     width: 270px;
 }
@@ -227,7 +227,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 130px;
-    left: 190px;
+    right: 50px;
     width: 380px;
     height: 100px;
 }
