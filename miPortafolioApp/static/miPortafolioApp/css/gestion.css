@@ -184,15 +184,15 @@ ul {
     position: absolute;
     text-align: center;
     top: 50px;
-    left: 300px;
+    left: 50px;
     text-shadow: 4px 4px 4px #ffffff;
 }
 
 .texto5{
     position: absolute;
     text-align: center;
-    top: 100px;
-    left: 250px;
+    top: 90px;
+    left: 50px;
     width: 180px;
     height: 180px;
 }
