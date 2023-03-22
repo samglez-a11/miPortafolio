@@ -92,16 +92,16 @@ ul {
 }
 
 .presentacion{
-    width: 60%;
-    height: 75%;
+    width: 50%;
+    height: 80%;
     position:absolute;
     top: 130px;
     left: 360px;
 }
 
 .img_head{
-    width: 60%;
-    height: 75%;
+    width: 50%;
+    height: 80%;
 }
 
 .info_pres{
