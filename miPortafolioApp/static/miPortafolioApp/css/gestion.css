@@ -191,7 +191,7 @@ ul {
 .texto5{
     position: absolute;
     text-align: center;
-    top: 80px;
+    top: 100px;
     left: 60px;
     width: 180px;
     height: 180px;
@@ -218,7 +218,7 @@ ul {
     position: absolute;
     text-align: center;
     top: 70px;
-    left: 130px;
+    left: 190px;
     text-shadow: 4px 4px 4px #ffffff;
     width: 270px;
 }
@@ -227,9 +227,9 @@ ul {
     position: absolute;
     text-align: center;
     top: 130px;
-    left: 130px;
+    left: 190px;
     width: 380px;
-    height: 280px;
+    height: 100px;
 }
 
 .texto10{
