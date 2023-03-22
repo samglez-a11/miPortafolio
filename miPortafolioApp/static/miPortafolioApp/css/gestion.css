@@ -51,7 +51,7 @@ h4{
 
 p{
     font-family: 'Shadows Into Light';
-    font-size: calc(1em + 1vw);
+    font-size: 0.77em;
 }
 
 ul {
@@ -256,10 +256,6 @@ ul {
     left: 130px;
     width: 350px;
     height: 380px;
-}
-
-.texto11 p{
-    font-size: medium;
 }
 
 .bring{
