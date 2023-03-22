@@ -19,7 +19,7 @@ footer{
 }
 
 footer h4{
-    font-size: 25px;
+    font-size: calc(1em + 1vw);
 }
 
 .imgfoot{
@@ -51,7 +51,7 @@ h4{
 
 p{
     font-family: 'Shadows Into Light';
-    font-size: small;
+    font-size: calc(1em + 1vw);
 }
 
 ul {
