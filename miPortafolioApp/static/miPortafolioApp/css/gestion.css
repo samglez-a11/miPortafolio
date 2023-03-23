@@ -302,8 +302,8 @@ ul {
 }
 
 .imgs_read{
-    width: 508px;
-    height: 408px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     display: inline-block;
     top: 150px;
@@ -311,8 +311,8 @@ ul {
 }
 
 .imgs_writte{
-    width: 450px;
-    height: 484px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     display: inline-block;
     top: 700px;
@@ -320,8 +320,8 @@ ul {
 }
 
 .imgs_photo{
-    width: 450px;
-    height: 484px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     display: inline-block;
     top: 1250px;
@@ -329,8 +329,8 @@ ul {
 }
 
 .imgs_paint{
-    width: 500px;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     position: absolute;
     display: inline-block;
     top: 1800px;
