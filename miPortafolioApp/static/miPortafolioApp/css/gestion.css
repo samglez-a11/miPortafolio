@@ -215,16 +215,11 @@ ul {
 }
 
 .texto8{
-    position: absolute;
-    top: 40px;
     text-shadow: 4px 4px 4px #ffffff;
     width: 270px;
 }
 
 .texto9{
-    position: absolute;
-    top: 60px;
-    left: 90px;
     width: 380px;
     height: 100px;
 }
